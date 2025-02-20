@@ -1,0 +1,4 @@
+[submodule "src/aesop"]
+	path = src/aesop
+	url = https://github.com/leanprover-community/aesop
+	branch = forward-code
