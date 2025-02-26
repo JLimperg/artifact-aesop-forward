@@ -1,7 +1,8 @@
 # Supplement for "Incremental Forward Reasoning for White-Box Proof Search"
 
 This is the supplement for the paper *Incremental Forward Reasoning for
-White-Box Proof Search*. The supplement contains two components:
+White-Box Proof Search* by Jannis Limperg and Xavier Généreux. The supplement
+contains two components:
 
 - A tar archive, `artifact.tar.xz`.  
   This contains source files and build instructions for Aesop and for the

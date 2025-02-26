@@ -1,7 +1,8 @@
 # Supplement for "Incremental Forward Reasoning for White-Box Proof Search"
 
-This is the artifact for the paper *Incremental Forward Reasoning for
-White-Box Proof Search*. The artifact contains
+This is the supplement for the paper *Incremental Forward Reasoning for
+White-Box Proof Search* by Jannis Limperg and Xavier Généreux. The supplement
+contains
 
 - a snapshot of the Aesop source code, including the forward reasoning
   algorithm described in the paper;
