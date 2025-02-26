@@ -27,4 +27,5 @@ White-Box Proof Search*. The supplement contains two components:
 
   The above command starts a `bash` shell within the container. See the README
   within the container for further instructions. Note the `--rm` argument,
-  which will cause the container to be deleted once you exit it.
+  which will cause the container to be deleted once you exit it. You can also
+  use `podman` instead of `docker`.
