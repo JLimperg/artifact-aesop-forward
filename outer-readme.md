@@ -20,7 +20,7 @@ White-Box Proof Search*. The supplement contains two components:
 
       docker load -i image.tar.xz
 
-  The uncompressed archive takes around 1.6G of disk space. Then run a Docker
+  The uncompressed archive takes around 1.7GB of disk space. Then run a Docker
   container:
 
       docker run --rm -it artifact:latest
