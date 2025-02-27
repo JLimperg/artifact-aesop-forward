@@ -73,8 +73,7 @@ lake build +Benchmark
 
 This runs the benchmarks in the same configuration as in the paper.
 However, each benchmark is only run once, rather than taking the average of 20
-runs. One run takes about 10 minutes, most of which is spent on the
-transitivity benchmark.
+runs. One run takes about 10 minutes, with most of that time spent on the transitivity benchmark.
 
 The benchmarks have various parameters, which can be adjusted by editing the
 `Benchmark.lean` file.
