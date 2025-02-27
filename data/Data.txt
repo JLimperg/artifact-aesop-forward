@@ -1,0 +1,55 @@
+Results of the tests.
+
+These results are an average of 20 runs. (#bchmk 20)
+
+No Precompilation
+
+Transitivity (term size 0)
+StatefulForward: false	
+(1, 6.168695) (2, 7.647181) (4, 13.331245) (8, 91.160610) (16, 1686.694560) (32, 42247.399772) 
+StatefulForward: true
+(1, 7.279874) (2, 9.579929) (4, 14.167385) (8, 33.641056) (16, 152.281068) (32, 1003.538712)
+
+Transitivity (term size 100)
+StatefulForward: false
+(1, 8.599714) (2, 19.510758) (4, 123.130497) (8, 1535.950129) (16, 22642.477537) (32, 371185.740641) 
+StatefulForward: true
+(1, 11.817681) (2, 22.297554) (4, 58.571268) (8, 204.596366) (16, 870.644077) (32, 3748.262977)
+
+Independence (variable number of rules, 6 premises per rule, term size 0)
+StatefulForward: false
+(1, 8.376025) (2, 12.775183) (4, 36.042362) (8, 179.360097) (16, 1149.268666) (32, 8300.053437) 
+StatefulForward: true
+(1, 10.400941) (2, 12.097460) (4, 15.495423) (8, 22.644318) (16, 37.950312) (32, 70.298812)
+
+Independence (variable number of rules, 6 premises per rule, term size 100)
+StatefulForward: false
+(1, 13.713279) (2, 23.140410) (4, 57.941920) (8, 234.314904) (16, 1378.349248) (32, 9612.427347) 
+StatefulForward: true
+(1, 20.117926) (2, 30.537418) (4, 51.648758) (8, 95.003862) (16, 180.553745) (32, 357.379087)
+
+Depth (variable depth, 6 premises per rule, 0 additional hypotheses, 100 rules, term size 0)
+StatefulForward: false
+(1, 29.711047) (2, 36.485449) (3, 43.350398) (4, 50.436345) (5, 57.259252) 
+StatefulForward: true
+(1, 74.253768) (2, 92.385454) (3, 110.028423) (4, 127.629943) (5, 144.888551)
+
+Depth (variable depth, 6 premises per rule, 0 additional hypotheses, 100 rules, term size 100)
+StatefulForward: false
+(1, 98.821245) (2, 106.618691) (3, 114.094895) (4, 122.223695) (5, 129.960526) 
+StatefulForward: true
+(1, 225.777493) (2, 318.982995) (3, 410.668802) (4, 501.413283) (5, 592.961541)
+
+With Precompilation
+
+Depth (variable depth, 6 premises per rule, 0 additional hypotheses, 100 rules, term size 0)
+StatefulForward: false
+(1, 11.508160) (2, 16.016310) (3, 20.662793) (4, 25.250989) (5, 29.880510) 
+StatefulForward: true
+(1, 6.451668) (2, 7.927170) (3, 9.389370) (4, 10.853781) (5, 12.284477)
+
+Depth (variable depth, 6 premises per rule, 0 additional hypotheses, 100 rules, term size 100)
+StatefulForward: false
+(1, 72.542545) (2, 78.261291) (3, 83.286783) (4, 88.887660) (5, 93.587293) 
+StatefulForward: true
+(1, 9.969747) (2, 13.145151) (3, 16.236820) (4, 19.391110) (5, 22.623412)
